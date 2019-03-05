@@ -4,27 +4,9 @@ body {
   height: 100%;
 }
 
-/*
-.backgrounds {
-opacity: .3;
-}
- */
-
 .section-subheader {
   font-size: 30px;
 }
-
-/* ABOUT
-	.background-about, img{
-	width: 100%;
-	box-shadow: #000 0 0px 20px;
-	}
-	@import url(https://fonts.googleapis.com/css?family=Quicksand:300,400|Lato:400,300|Coda|Open+Sans);
-
-	/*
-	 * * Art by @jofpin
-	 * * 2014
-	 * */
 
 .card {
   position: absolute;
@@ -89,17 +71,6 @@ opacity: .3;
   position: absolute;
   left: -75px;
   top: -100px;
-  /*
-   	height: 150px;
-   	width: 150px;
-
-   	background: url("/home/klein/Documents/works/css_works/card-ui2/image/face.jpg");
-   	background-size: contain;
-
-   	border-radius: 100%;
-   	box-shadow: -3px 0px 10px #696969;
-   	border: solid white 2px;
-   	*/
 }
 
 .profile__picture img {
@@ -335,11 +306,7 @@ opacity: .3;
 
 /* END ABOUT */
 
-/* MAP
-	#map {
-	position: initial;
-	}
-	 */
+/* MAP */
 
 div.text-map {
   background-color: #31a3b6;
@@ -428,6 +395,10 @@ div img.projects {
 div img.projects.left {
   right: unset;
 	left: 5%;
+}
+
+div img.projects.right {
+  width: 30%;
 }
 
 div img.projects.shadow-none {
