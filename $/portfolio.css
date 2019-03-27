@@ -400,6 +400,15 @@ div img.projects.left {
 div img.projects.right {
   width: 30%;
 }
+div img.projects.full-left {
+  width: 43%;
+  /*margin-top: 37%;*/
+  box-shadow: 0 0 50px rgba(9, 9, 9, 0.2);
+  top: 20%;
+  position: absolute;
+  transform: unset;
+  /*left: 10%;*/
+}
 
 div img.projects.shadow-none {
 	box-shadow: none;
